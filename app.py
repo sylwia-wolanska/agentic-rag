@@ -500,7 +500,6 @@ with st.sidebar:
 col_left, col_right = st.columns([1, 1], gap="large")
 
 with col_left:
-    # PDF Upload
     st.markdown('<div class="section-label">Document</div>', unsafe_allow_html=True)
     uploaded_file = st.file_uploader(
         "Upload PDF",
@@ -567,7 +566,6 @@ with col_right:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # Validation
     ready = bool(
         uploaded_file and
         groq_key and
