@@ -1,0 +1,11 @@
+﻿.env
+__pycache__/
+*.pyc
+.chroma/
+chroma/
+*.db
+db/
+.venv/
+venv/
+.idea/
+.ipynb_checkpoints/

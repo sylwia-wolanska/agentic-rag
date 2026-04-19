@@ -1,0 +1,15 @@
+﻿crewai
+crewai_tools
+langchain-openai
+langchain-community
+langchain-groq
+langchain-huggingface
+langchain-text-splitters
+langchain-chroma
+langchain-tavily
+sentence-transformers
+tavily-python
+litellm
+streamlit
+pypdf
+chromadb
